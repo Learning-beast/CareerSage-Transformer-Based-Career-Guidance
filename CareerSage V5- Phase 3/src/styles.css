@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== CareerSage Premium Modern UI ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  min-height: 100vh;
+  padding: 30px;
+  color: #7ba8e3;
+
+  background: radial-gradient(circle at top left, #4f46e5, transparent 45%),
+    radial-gradient(circle at bottom right, #9333ea, transparent 45%),
+    linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+/* ===== Main Container ===== */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  padding: 28px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+  color: #ffffff;
+  letter-spacing: 0.4px;
+}
+
+/* ===== Step Indicator Pills ===== */
+.step-indicator {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.step-pill {
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.75);
+
+  transition: 0.25s ease;
+}
+
+.step-pill.active {
+  background: linear-gradient(135deg, #6366f1, #9333ea);
+  color: white;
+  border: none;
+  box-shadow: 0 8px 22px rgba(99, 102, 241, 0.35);
+}
+
+/* ===== Form Step ===== */
+.form-step {
+  margin-top: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ===== Grid Layout ===== */
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.col {
+  width: 100%;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Fields ===== */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+/* ===== Labels ===== */
+label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 600;
+}
+
+/* ===== Inputs / Textarea / Select ===== */
+input,
+textarea,
+select {
+  width: 100%;
+  height: 48px;
+  padding: 12px 14px;
+
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  background: rgba(255, 255, 255, 0.10);
+  color: #fff;
+
+  outline: none;
+  font-size: 15px;
+  transition: all 0.25s ease;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: rgba(99, 102, 241, 0.95);
+  box-shadow: 0 0 0 5px rgba(99, 102, 241, 0.22);
+  transform: translateY(-1px);
+}
+
+/* remove browser autofill white */
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 12px 18px;
+  border-radius: 14px;
+  border: none;
+
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 0.95rem;
+
+  color: white;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+
+  transition: all 0.25s ease;
+  box-shadow: 0 10px 25px rgba(79, 70, 229, 0.35);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 35px rgba(147, 51, 234, 0.45);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Secondary Button */
+button.secondary {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: white;
+  box-shadow: none;
+}
+
+button.secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* ===== Small Text ===== */
+.small {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ===== List ===== */
+.list {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+/* ===== Review Items ===== */
+.review-item {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 14px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
+  transition: 0.25s ease;
+}
+
+.review-item:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99, 102, 241, 0.6);
+}
+
+/* ===== Animations ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "skills": {
+    "SQL": [
+      {
+        "name": "NPTEL – Databases and SQL for Data Science",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/courses/database-sql-for-data-science",
+        "level": "Beginner to Intermediate",
+        "duration": "6 weeks",
+        "notes": "Covers relational databases, SQL queries, joins, aggregation, and basics of data modelling."
+      },
+      {
+        "name": "SWAYAM – SQL Fundamentals",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/sql-fundamentals",
+        "level": "Beginner",
+        "duration": "4 weeks",
+        "notes": "Hands-on SQL exercises and real examples for analytics workflows."
+      }
+    ],
+    "Power BI": [
+      {
+        "name": "SWAYAM – Power BI for Business Analytics",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/powerbi-business-analytics",
+        "level": "Beginner to Intermediate",
+        "duration": "5 weeks",
+        "notes": "Dashboard creation, data modelling, DAX basics and visualization best practices."
+      }
+    ],
+    "Python": [
+      {
+        "name": "NPTEL – Introduction to Programming with Python",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/python-intro",
+        "level": "Beginner",
+        "duration": "8 weeks",
+        "notes": "Core Python syntax, data structures, and problem-solving examples."
+      },
+      {
+        "name": "SWAYAM – Python for Data Science",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/python-data-science",
+        "level": "Beginner to Intermediate",
+        "duration": "6 weeks",
+        "notes": "Focus on libraries used in data analysis (NumPy, pandas)."
+      }
+    ],
+    "Excel": [
+      {
+        "name": "DIKSHA – Advanced Excel for Professionals",
+        "platform": "DIKSHA",
+        "link": "https://diksha.gov.in/advanced-excel",
+        "level": "Beginner to Intermediate",
+        "duration": "4 weeks",
+        "notes": "Formulas, pivot tables, charts and common data-cleaning techniques."
+      }
+    ],
+    "Machine Learning": [
+      {
+        "name": "NPTEL – Machine Learning",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/machine-learning",
+        "level": "Intermediate",
+        "duration": "12 weeks",
+        "notes": "Supervised/unsupervised algorithms, model evaluation, and deployment basics."
+      }
+    ],
+    "Data Visualization": [
+      {
+        "name": "SWAYAM – Data Visualization with Tableau and Power BI",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/data-visualization-tableau-powerbi",
+        "level": "Beginner to Intermediate",
+        "duration": "5 weeks",
+        "notes": "Principles of visualization and hands-on Tableau/Power BI labs."
+      }
+    ],
+    "Statistics": [
+      {
+        "name": "NPTEL – Probability and Statistics for Engineers",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/probability-statistics",
+        "level": "Beginner to Intermediate",
+        "duration": "8 weeks",
+        "notes": "Probability theory, hypothesis testing, regression fundamentals."
+      }
+    ],
+    "Communication": [
+      {
+        "name": "DIKSHA – Professional Communication Skills",
+        "platform": "DIKSHA",
+        "link": "https://diksha.gov.in/professional-communication",
+        "level": "Beginner",
+        "duration": "3 weeks",
+        "notes": "Presentation skills, interview etiquette, and written communication."
+      }
+    ],
+    "Tableau": [
+      {
+        "name": "SWAYAM – Tableau for Data Analytics",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/tableau-data-analytics",
+        "level": "Beginner to Intermediate",
+        "duration": "4 weeks",
+        "notes": "Creating dashboards, calculated fields and story-telling with data."
+      }
+    ],
+    "R": [
+      {
+        "name": "NPTEL – Statistical Computing with R",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/statistical-computing-r",
+        "level": "Beginner to Intermediate",
+        "duration": "6 weeks",
+        "notes": "Basics of R, data manipulation, and statistical modelling."
+      }
+    ],
+    "Git": [
+      {
+        "name": "SWAYAM – Version Control with Git",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/git-version-control",
+        "level": "Beginner",
+        "duration": "2 weeks",
+        "notes": "Core Git commands, branching, merging and collaboration workflows."
+      }
+    ],
+    "Cloud (AWS Basics)": [
+      {
+        "name": "NPTEL – Cloud Computing Fundamentals",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/cloud-computing-fundamentals",
+        "level": "Beginner to Intermediate",
+        "duration": "8 weeks",
+        "notes": "Introduction to cloud concepts, basic AWS services and deployment patterns."
+      }
+    ],
+    "Microsoft Office (Excel)": [
+      {
+        "name": "Advanced Excel for Business",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/",
+        "level": "Intermediate",
+        "duration": "6 weeks",
+        "notes": "Covers data analysis, charts, pivot tables for business users."
+      }
+    ],
+    "Data Interpretation": [
+      {
+        "name": "Data Analysis and Interpretation",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/",
+        "level": "Beginner",
+        "duration": "4 weeks",
+        "notes": "Teaches interpretation of business and statistical data."
+      }
+    ],
+    "Analytical Thinking": [
+      {
+        "name": "Critical and Analytical Thinking",
+        "platform": "DIKSHA",
+        "link": "https://diksha.gov.in/",
+        "level": "Beginner",
+        "duration": "4 weeks",
+        "notes": "Improves reasoning and structured problem-solving ability."
+      }
+    ],
+    "SEO": [
+      {
+        "name": "Digital Marketing and SEO Fundamentals",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/",
+        "level": "Beginner",
+        "duration": "5 weeks",
+        "notes": "Introduction to search engine optimization and analytics."
+      }
+    ],
+    "ERP": [
+      {
+        "name": "Introduction to ERP Systems",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/",
+        "level": "Beginner",
+        "duration": "5 weeks",
+        "notes": "Explains enterprise resource planning systems in business."
+      }
+    ],
+    "Marketing": [
+      {
+        "name": "Principles of Marketing",
+        "platform": "NPTEL",
+        "link": "https://nptel.ac.in/",
+        "level": "Intermediate",
+        "duration": "6 weeks",
+        "notes": "Covers key marketing frameworks, consumer behavior, and segmentation."
+      }
+    ],
+
+    "Management": [
+      {
+        "name": "Introduction to Management",
+        "platform": "SWAYAM",
+        "link": "https://swayam.gov.in/",
+        "level": "Beginner",
+        "duration": "6 weeks",
+        "notes": "Overview of planning, organizing, leading, and controlling."
+      }
+    ]
+
+  }
+}
